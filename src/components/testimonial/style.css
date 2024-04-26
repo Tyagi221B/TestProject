@@ -22,6 +22,8 @@
   width: 600px;
   position: relative;
   top: 15px;
+  border-radius: 0.5rem;
+  box-shadow: 10px 10px 7px #666;
 }
 .left-arrow{
   position: relative;

@@ -1,0 +1,62 @@
+.slider-container{
+  /* border: 10px solid black; */
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  
+}
+.secondary-image{
+  border-radius: 0.5rem;
+  height:  500px;
+  width: 100%;
+  box-shadow: 5px 5px 7px #666;
+  width: 750px;
+  height: 500px;
+  transition: all;
+  transition-duration: 1s;
+}
+.primary-image{
+  border-radius: 0.5rem;
+  box-shadow: 1px 1px 7px #666;
+  width: 320px;
+  height: 500px;
+  transition: all;
+  transition-duration: 1s;
+}
+.cards-wrapper{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  /* border: 2px solid red; */
+  justify-content: space-between;
+}
+
+.bottom-container{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  /* border: 2px solid red; */
+}
+  
+.bottom-inner-container{
+  /* border: 2px solid black; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width:30%;
+  
+}
+.left-arrow{
+position: relative;
+bottom: 8px;
+}
+.right-arrow{
+  position: relative;
+  bottom: 8px;
+}
