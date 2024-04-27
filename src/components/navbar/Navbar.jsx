@@ -1,7 +1,8 @@
+import "./style.css"
 const Navbar = () => {
 	return (
-		<div>
-			<nav className="navbar navbar-expand-lg bg-light mt-1 ps-5 pe-5 fixed-top">
+		<div className="">
+			<nav className="navbar navbar-expand-lg bg-light mt-1 ps-5 pe-5 fixed-top nav-bar">
 				<div className="container-fluid">
 					<a className="navbar-brand" href="/">
 						DINESHGAHLOT.COM
@@ -21,7 +22,7 @@ const Navbar = () => {
 						<ul className="navbar-nav ms-auto mb-2 mb-lg-0">
 							<li className="nav-item">
 								<a className="nav-link active" aria-current="page" href="/">
-									Home
+									HOME 
 								</a>
 							</li>
 							<li className="nav-item dropdown">

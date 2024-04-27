@@ -121,7 +121,7 @@ const ImageSlider = () => {
 							width="32"
 							height="32"
 							fill="none"
-							stroke="black"
+							stroke="white"
 							strokeLinecap="round"
 							strokeLinejoin="round"
 							strokeWidth="2"
@@ -131,7 +131,7 @@ const ImageSlider = () => {
 					</span>
 					<span className="visually-hidden">Previous</span>
 				</button>
-				<p className="text-center ">0{currentSlideIndex + 1}/03</p>
+				<p className="text-center slideCounter">0{currentSlideIndex + 1} / 03</p>
 				<button
 					onClick={handleNextButtonClick}
 					className="carousel-control-next right-button "
@@ -147,7 +147,7 @@ const ImageSlider = () => {
 							width="32"
 							height="32"
 							fill="none"
-							stroke="black"
+							stroke="white"
 							strokeLinecap="round"
 							strokeLinejoin="round"
 							strokeWidth="2"

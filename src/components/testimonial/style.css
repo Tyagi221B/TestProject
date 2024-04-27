@@ -5,6 +5,7 @@
   padding-right: 50px;
   padding-top: 50px;
   padding-bottom: 50px;
+  background-color: black;
 }
 .left-container{
   height: 500px;
@@ -29,29 +30,21 @@
 .left-arrow{
   position: relative;
   left: -30px;
-  /* background-color: black; */
-  /* color: red; */
-
 }
 .right-arrow{
   position: relative;
-  /* background-color: black; */
 }
 .left-button{
   position: relative;
-  /* border: 2px solid black; */
   height: 40px;
 }
 .right-button{
   position: relative;
-  /* border: 2px solid black; */
   height: 40px;
 }
   
 .bottom-right-container{
-  /* border: 2px solid black; */
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
 }

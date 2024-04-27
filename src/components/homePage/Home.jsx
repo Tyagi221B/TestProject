@@ -21,13 +21,13 @@ const Home = () => {
 				<div id="carouselExampleControlsHome" className="carousel slide">
 					<div className="carousel-inner">
 						<div className="carousel-item active carousel-image bg-img-1">
-							<div className="carousel-container"></div>
+							<div className="carousel-container-spacing"></div>
 						</div>
 						<div className="carousel-item carousel-image bg-img-2">
-							<div className="carousel-container"></div>
+							<div className="carousel-container-spacing"></div>
 						</div>
 						<div className="carousel-item carousel-image bg-img-3">
-							<div className="carousel-container"></div>
+							<div className="carousel-container-spacing"></div>
 						</div>
 					</div>
 				</div>
@@ -37,7 +37,7 @@ const Home = () => {
 						<div className="section-one">
 							<span className="main-heading">Photography For Adventures Souls & Rebels At Heart</span>
 							<button type="button" className="btn btn-light button-primary">
-								Light
+								Read More
 							</button>
 						</div>
 						<div className="section-two">
@@ -73,7 +73,7 @@ const Home = () => {
 								<path d="M10 6 L2 16 10 26 M2 16 L30 16" />
 							</svg>
 						</span>
-						<span className="visually-hiden">Previous</span>
+						<span className="visually-hiddden">Previous</span>
 					</button>
 					<p className="text-center slideCounter">0{currentSlideIndex + 1} / 03</p>
 					<button

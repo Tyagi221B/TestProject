@@ -17,10 +17,22 @@
 
 h1,h2,h3,h4,h5,h6{
   font-family: 'Lexend Decash', sans-serif;
-  color:var(--bs-dark-color)
+  color:var(--bs-main-color)
 }
 p{
   font-family: 'Lexend Decash', sans-serif;
   color:var(--bs-primary-color)
 }
 
+a{
+  text-decoration: none;
+  color: var(--bs-main-color) !important;
+  font-size: 1.2rem !important;
+
+}
+.slideCounter{
+  position: relative;
+  top: 8px;
+}
+
+/* TODO: add button css here as a css variable */
