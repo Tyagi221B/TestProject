@@ -18,7 +18,7 @@ const Testimonial = () => {
 	return (
 		<div className="row h-100 main-container">
 			<div className="left-container col d-flex flex-column justify-content-between">
-				<h1>Testimonials</h1>
+				<h1 className="fw-bold">Testimonials</h1>
 				<p>
 					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur
 					sapiente perferendis et officiis adipisci consectetur repellat
@@ -29,7 +29,7 @@ const Testimonial = () => {
 					rerum necessitatibus similique.
 				</p>
 
-				<h3 className="">Testimonial {currentSlideIndex + 1}</h3>
+				<h2 className="fw-bolder">Testimonial {currentSlideIndex + 1}</h2>
 			</div>
 			<div className="right-container col">
 				<div

@@ -1,14 +1,19 @@
 import React from "react";
 import "./style.css";
 
+// ImageSlider component
 const ImageSlider = () => {
+	// State for current slide index
 	const [currentSlideIndex, setCurrentSlideIndex] = React.useState(0);
 
+	// Function to handle previous button click
 	function handlePrevButtonClick() {
 		setCurrentSlideIndex(
 			currentSlideIndex === 0 ? 3 - 1 : currentSlideIndex - 1
 		);
 	}
+
+	// Function to handle next button click
 	function handleNextButtonClick() {
 		setCurrentSlideIndex(
 			currentSlideIndex === 3 - 1 ? 0 : currentSlideIndex + 1

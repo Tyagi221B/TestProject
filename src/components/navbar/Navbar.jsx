@@ -1,7 +1,7 @@
 const Navbar = () => {
 	return (
 		<div>
-			<nav className="navbar navbar-expand-lg bg-light mt-1 ps-5 pe-5">
+			<nav className="navbar navbar-expand-lg bg-light mt-1 ps-5 pe-5 fixed-top">
 				<div className="container-fluid">
 					<a className="navbar-brand" href="/">
 						DINESHGAHLOT.COM
