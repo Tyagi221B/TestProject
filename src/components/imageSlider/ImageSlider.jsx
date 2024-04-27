@@ -20,7 +20,7 @@ const ImageSlider = () => {
 		);
 	}
 	return (
-		<div className="slider-container ">
+		<div id="image-slider" className="slider-container ">
 			<div
 				id="carouselExampleControlsNoTouch"
 				className="carousel slide"

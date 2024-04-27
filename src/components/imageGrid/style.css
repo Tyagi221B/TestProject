@@ -1,0 +1,78 @@
+.img1 {
+  background-image: url("https://images.unsplash.com/photo-1433086966358-54859d0ed716?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+
+.img2 {
+  background-image: url("https://images.unsplash.com/photo-1426604966848-d7adac402bff?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+
+.img3 {
+  background-image: url("https://images.unsplash.com/photo-1586348943529-beaae6c28db9?q=80&w=2815&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+
+.img4 {
+  background-image: url("https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+
+.img5 {
+  background-image: url("https://images.unsplash.com/photo-1534570122623-99e8378a9aa7?q=80&w=2318&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+
+.img6 {
+  background-image: url("https://plus.unsplash.com/premium_photo-1673292293042-cafd9c8a3ab3?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+
+.img7 {
+  background-image: url("https://plus.unsplash.com/premium_photo-1675827055694-010aef2cf08f?q=80&w=2812&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+
+.img8 {
+  background-image: url("https://images.unsplash.com/photo-1502082553048-f009c37129b9?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+
+.grid-container {
+  min-height: 100vh;
+  background: linear-gradient(to right, #090a09, #121413);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.gallery {
+
+  /* display: grid; */
+  /* gap: 8px; */
+  /* grid-template-columns: 3, 1fr; */
+  /* grid-auto-rows: 120px; */
+}
+
+.box{
+
+  background-size: cover;
+  background-position: top;
+  display: flex ;
+  justify-content: center;
+  align-items: center;
+  color: var(--bs-main-color);
+  background-color: #222;
+  background-blend-mode: hard-light;
+  transition: all 1s ease-in-out;
+  border-radius: 20px;
+}
+.box:hover{
+  background-color: #999;
+  background-position: center;
+  box-shadow: 0px 0px 8px #fff;
+}
+.image-height-primary{
+  height: 200px;
+  margin-right: 2px;
+  margin-left: 2px;
+  margin-bottom: 20px;
+}
+.image-height-secondary{
+  height: 380px;
+  margin-right: 2px;
+  margin-left: 2px;
+  margin-bottom: 20px;
+
+}

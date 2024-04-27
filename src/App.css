@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Katibeh&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
 *{
   margin: 0px;
@@ -16,23 +18,43 @@
 }
 
 h1,h2,h3,h4,h5,h6{
-  font-family: 'Lexend Decash', sans-serif;
-  color:var(--bs-main-color)
+  font-family: "Bodoni Moda" 'Lexend Decash', sans-serif;
+  color:var(--bs-main-color);
+  letter-spacing: 0.1rem;
+
 }
+.main-heading{
+  font-size: 3.5rem;
+  color: var(--bs-main-color);
+  padding-top: 10px;
+  font-family: "Katibeh";
+  /* font-weight: 600; */
+}
+
 p{
   font-family: 'Lexend Decash', sans-serif;
-  color:var(--bs-primary-color)
+  color:var(--bs-primary-color);
+  letter-spacing: 0.1rem;
+
 }
 
 a{
   text-decoration: none;
   color: var(--bs-main-color) !important;
   font-size: 1.2rem !important;
+  letter-spacing: 0.1rem;
+  /* font-weight: 700; */
 
 }
 .slideCounter{
   position: relative;
   top: 8px;
+}
+span{
+  letter-spacing: 0.1rem;
+}
+button{
+letter-spacing: 0.15rem;
 }
 
 /* TODO: add button css here as a css variable */

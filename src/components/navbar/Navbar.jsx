@@ -37,20 +37,20 @@ const Navbar = () => {
 								</a>
 								<ul className="dropdown-menu">
 									<li>
-										<a className="dropdown-item" href="/action">
-											Action
+										<a className="dropdown-item text-dark" href="#grid">
+											Grid
 										</a>
 									</li>
 									<li>
-										<a className="dropdown-item" href="/another-action">
-											Another action
+										<a className="dropdown-item text-dark" href="#image-slider">
+											Image Slider
 										</a>
 									</li>
 									<li>
-										<hr className="dropdown-divider" />
+										<hr className="dropdown-divider text-dark" />
 									</li>
 									<li>
-										<a className="dropdown-item" href="/haha">
+										<a className="dropdown-item text-dark" href="/haha">
 											Something else here
 										</a>
 									</li>
@@ -62,7 +62,7 @@ const Navbar = () => {
 								</a>
 							</li>
 							<li className="nav-item">
-								<a className="nav-link" href="/testimonials">
+								<a className="nav-link" href="#testimonial">
 									TESTIMONIALS
 								</a>
 							</li>

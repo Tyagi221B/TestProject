@@ -15,7 +15,7 @@ const Home = () => {
 		);
 	}
 	return (
-		<div className="full-container">
+		<div id="home" className="full-container">
 			<div className="carousel-container">
 				{/* Carousel  */}
 				<div id="carouselExampleControlsHome" className="carousel slide">
@@ -33,20 +33,20 @@ const Home = () => {
 				</div>
 				{/* Hero Section  */}
 				<div className="heroSection">
-					<div className="carousel-inner-container">
-						<div className="section-one">
+					<div className="carousel-inner-container row justify-content-center">
+						<div className="section-one col-5 d-flex  flex-column justify-content-between py-5 mb-5">
 							<span className="main-heading">Photography For Adventures Souls & Rebels At Heart</span>
 							<button type="button" className="btn btn-light button-primary">
 								Read More
 							</button>
 						</div>
-						<div className="section-two">
+						<div className="section-two col-5 d-flex flex-column justify-content-end align-items-end py-5 mb-5">
 							<p className="">Lorem ipsum dolor sit amet</p>
 						</div>
 					</div>
 				</div>
 				{/* carousel buttons */}
-				<div className="buttons-container">
+				<div className="buttons-container col-10">
         <button
 						onClick={handlePrevButtonClick}
 						className="carousel-control-prev left-button"

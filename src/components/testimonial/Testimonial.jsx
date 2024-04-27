@@ -16,8 +16,8 @@ const Testimonial = () => {
 	}
 
 	return (
-		<div className="row h-100 main-container">
-			<div className="left-container col d-flex flex-column justify-content-between">
+		<div id="testimonial" className="row h-100 main-container row justify-content-center">
+			<div className="left-container col-5 d-flex flex-column justify-content-between">
 				<h1 className="fw-bold">Testimonials</h1>
 				<p>
 					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur
@@ -31,7 +31,7 @@ const Testimonial = () => {
 
 				<h2 className="fw-bolder">Testimonial {currentSlideIndex + 1}</h2>
 			</div>
-			<div className="right-container col">
+			<div className="right-container col-5">
 				<div
 					id="carouselExampleControls"
 					className="carousel slide"
