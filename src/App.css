@@ -58,4 +58,28 @@ button{
 letter-spacing: 0.15rem;
 }
 
+@media (max-width: 768px) {
+  h1, h2, h3 {
+    font-size: 2.5rem; /* Adjust heading sizes for smaller screens */
+  }
+  .main-heading {
+    font-size: 2.8rem; /* Adjust main heading size for smaller screens */
+  }
+  p {
+    font-size: 1rem; /* Adjust paragraph size for smaller screens */
+  }
+  a {
+    font-size: 1rem; /* Adjust link size for smaller screens */
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* Apply specific styles for medium screens if needed */
+}
+
+/* Target larger screens (e.g., desktops) */
+@media (min-width: 1024px) {
+  /* Apply specific styles for large screens if needed */
+}
+
 /* TODO: add button css here as a css variable */

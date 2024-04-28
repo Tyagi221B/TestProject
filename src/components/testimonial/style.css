@@ -1,5 +1,4 @@
-
-.main-container{
+.main-container {
   /* border: 2px solid red; */
   padding-left: 50px;
   padding-right: 50px;
@@ -10,13 +9,71 @@
   background-repeat: no-repeat;
   background-color: var(--bs-dark-primary);
   transition: all 1s ease-in-out;
+}
+
+@media (max-width: 768px) {
+
+  /* Styles for screens smaller than 768px */
+  .main-container {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-image: url('https://images.unsplash.com/photo-1460602594182-8568137446ce?q=80&w=2676&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .left-container{
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+  }
+  .left-container h1{
+    font-size: 2rem;
+  }
+  .left-container p{
+    font-size: 1rem;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+
+  }
+  .left-container h2{
+    font-size: 2rem;
+    width: fit-content;
+    margin: 0;
+    padding: 0;
+
+  }
+  .right-container{
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+
+  }
+  .right-container img{
+    width: 100%;
+  }
 
 }
-.left-container{
+
+
+.left-container {
   height: 500px;
   padding-top: 30px;
 }
-.right-container{
+
+.right-container {
   height: 500px;
   display: flex;
   flex-direction: column;
@@ -24,7 +81,8 @@
   padding-right: 50px;
   padding-left: 50px;
 }
-.slider-images{
+
+.slider-images {
   height: 400px;
   width: 600px;
   position: relative;
@@ -32,28 +90,28 @@
   border-radius: 0.5rem;
   box-shadow: 10px 10px 7px #666;
 }
-.left-arrow{
+
+.left-arrow {
   position: relative;
   left: -30px;
 }
-.right-arrow{
+
+.right-arrow {
   position: relative;
 }
-.left-button{
-  position: relative;
-  height: 40px;
-}
-.right-button{
+
+.left-button {
   position: relative;
   height: 40px;
 }
-  
-.bottom-right-container{
+
+.right-button {
+  position: relative;
+  height: 40px;
+}
+
+.bottom-right-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
-
-/* shape divider css */
-

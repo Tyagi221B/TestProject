@@ -18,7 +18,11 @@ const Home = () => {
 		<div id="home" className="full-container">
 			<div className="carousel-container">
 				{/* Carousel  */}
-				<div id="carouselExampleControlsHome" className="carousel slide">
+				<div 
+				id="carouselExampleControlsHome" 
+				data-bs-touch="true"
+				data-bs-interval="4000"
+				className="carousel slide " >
 					<div className="carousel-inner">
 						<div className="carousel-item active carousel-image bg-img-1">
 							<div className="carousel-container-spacing"></div>
@@ -35,7 +39,7 @@ const Home = () => {
 				<div className="heroSection">
 					<div className="carousel-inner-container row justify-content-center">
 						<div className="section-one col-5 d-flex  flex-column justify-content-between py-5 mb-5">
-							<span className="main-heading">Photography For Adventures Souls & Rebels At Heart</span>
+							<h1 className="main-heading">Photography For Adventures Souls & Rebels At Heart</h1>
 							<button type="button" className="btn btn-light button-primary">
 								Read More
 							</button>
@@ -73,7 +77,7 @@ const Home = () => {
 								<path d="M10 6 L2 16 10 26 M2 16 L30 16" />
 							</svg>
 						</span>
-						<span className="visually-hiddden">Previous</span>
+						<span className="visually-hidden">Previous</span>
 					</button>
 					<p className="text-center slideCounter">0{currentSlideIndex + 1} / 03</p>
 					<button
@@ -99,7 +103,7 @@ const Home = () => {
 								<path d="M22 6 L30 16 22 26 M30 16 L2 16" />
 							</svg>
 						</span>
-						<span className="visually-hiden">Next</span>
+						<span className="visually-hidden">Next</span>
 					</button>
 				</div>
 			</div>
