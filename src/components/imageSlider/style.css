@@ -7,11 +7,11 @@
   margin-bottom: 20px;
   padding-top: 40px;
   padding-bottom: 40px;
-  background: url('https://images.pexels.com/photos/691710/pexels-photo-691710.jpeg?auto=compress&cs=tinysrgb&w=800');
+  background: url('https://images.pexels.com/photos/3038740/pexels-photo-3038740.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
   background-color: var(--color-bg-1);
   background-blend-mode: multiply;
   background-position: top;
-  transition: all 1s ease-in-out;
+  transition: all 2s ease-in-out;
 
 
 }
