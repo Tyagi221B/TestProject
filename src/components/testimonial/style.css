@@ -4,13 +4,16 @@
   padding-right: 50px;
   padding-top: 50px;
   padding-bottom: 50px;
-  /* background-image: url('https://images.unsplash.com/photo-1460602594182-8568137446ce?q=80&w=2676&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); */
-  background: linear-gradient(var(--color-bg-3), var(--color-bg-1));
-
+  background: url('https://images.pexels.com/photos/3038740/pexels-photo-3038740.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+  background-color: var(--color-bg-1);
+  background-blend-mode: multiply;
+  background-position: top;
+  transition: all 1s ease-in-out;
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: var(--bs-dark-primary);
-  transition: all 1s ease-in-out;
+}
+.main-container:hover{
+  background-position: bottom;
 }
 
 @media (max-width: 768px) {

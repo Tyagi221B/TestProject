@@ -198,20 +198,29 @@
   transform: translateY(-1rem);
   color: var(--color-bg-1)
 }
-.contact-btn img{
+.contact-btn span{
   height: 3.5rem;
   position: absolute;
   animation: spinText 500ms alternate-reverse infinite;
   bottom: 10px;
 
 }
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 600,
+  'GRAD' 0,
+  'opsz' 24
+}
+
 
 
 
 @keyframes spinText {
   to{
-    transform: rotate(40deg);
+    transform: rotate(20deg);
   }
+  
 }
 
 

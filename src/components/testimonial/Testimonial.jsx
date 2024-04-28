@@ -39,21 +39,21 @@ const Testimonial = () => {
 					<div className="carousel-inner ">
 						<div className="carousel-item active">
 							<img
-								src="https://images.unsplash.com/photo-1604072366595-e75dc92d6bdc?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+								src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?q=80&w=2550&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 								className="d-block slider-images"
 								alt="image1"
 							/>
 						</div>
 						<div className="carousel-item">
 							<img
-								src="/src/assets/image2.jpg"
+								src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YmVhdXRpZnVsJTIwd29tZW4lMjBwcm9maWxlJTIwcGhvdG98ZW58MHx8MHx8fDA%3D"
 								className="d-block slider-images"
 								alt="image2"
 							/>
 						</div>
 						<div className="carousel-item">
 							<img
-								src="/src/assets/image3.jpg"
+								src="https://images.unsplash.com/photo-1629425733761-caae3b5f2e50?q=80&w=2968&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 								className="d-block slider-images"
 								alt="image3"
 							/>

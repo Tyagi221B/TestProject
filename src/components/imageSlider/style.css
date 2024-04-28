@@ -5,9 +5,18 @@
   flex-direction: column;
   justify-content: center;
   margin-bottom: 20px;
-  background: linear-gradient(var(--color-bg-3), var(--color-bg-1));
   padding-top: 40px;
   padding-bottom: 40px;
+  background: url('https://images.pexels.com/photos/691710/pexels-photo-691710.jpeg?auto=compress&cs=tinysrgb&w=800');
+  background-color: var(--color-bg-1);
+  background-blend-mode: multiply;
+  background-position: top;
+  transition: all 1s ease-in-out;
+
+
+}
+.slider-container:hover{
+  background-position: bottom;
 }
 
 

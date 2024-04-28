@@ -32,10 +32,19 @@
 
 .grid-container {
   min-height: 100vh;
-  background: linear-gradient(var(--color-bg-3), var(--color-bg-1));
-  
   padding-top: 200px;
   padding-bottom: 50px;
+  background: url('https://images.pexels.com/photos/45206/roofing-tile-red-wall-45206.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+  background-color: var(--color-bg-1);
+  background-blend-mode: multiply;
+  background-position: top;
+  transition: all 1s ease-in-out;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+.grid-container:hover{
+  background-position: bottom;
 }
 
 

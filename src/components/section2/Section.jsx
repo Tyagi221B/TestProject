@@ -57,14 +57,9 @@ const Section = () => {
 					href="mailto:asmittyagi.dev@gmail.com"
 					className="contact-btn header_btn"
 				>
-					<img
-						className="arrow-up-right"
-						src="/src/assets/arrow-up-right.svg"
-						alt="arrow up right"
-					/>
-					<p>
-							CONTACT ME
-					</p>
+					<span className="material-symbols-outlined">north_east</span>
+
+					<p>CONTACT ME</p>
 				</a>
 			</div>
 		</div>
@@ -72,4 +67,3 @@ const Section = () => {
 };
 
 export default Section;
-

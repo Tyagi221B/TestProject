@@ -1,0 +1,43 @@
+.quote-container {
+  background-image: url('https://images.pexels.com/photos/424154/pexels-photo-424154.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'); /* Replace 'your-background-image.jpg' with the path to your image */
+  background-size: cover;
+  background-position: top;
+  height: 100vh; /* Adjust as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: var(--color-bg-3);
+  background-blend-mode: multiply;
+  padding: 40px;
+  transition: all 1s ease-in-out;
+  
+}.quote-container:hover{
+  background-position: center;
+}
+
+.quote-content {
+  background-color: val(--color-bg-2);
+  padding: 20px;
+}
+
+.quote-text {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.author {
+  font-size: 2rem;
+  color: white;
+
+}
+
+/* Responsive CSS */
+@media (max-width: 768px) {
+  .quote-text {
+    font-size: 20px;
+  }
+  .author {
+    font-size: 16px;
+  }
+}
