@@ -69,3 +69,28 @@
   margin-bottom: 20px;
 
 }
+@media (max-width: 500px){
+  .extra{
+    display: none;
+  }
+  .grid-container {
+    min-height: 100vh;
+    background: linear-gradient(to right, #090a09, #121413);
+    padding-top: 10px;
+    padding-bottom: 50px;
+  }
+  
+  .image-height-primary{
+    height: 380px;
+    margin-right: 2px;
+    margin-left: 2px;
+    margin-bottom: 20px;
+  }
+  .image-height-secondary{
+    height: 380px;
+    margin-right: 2px;
+    margin-left: 2px;
+    margin-bottom: 20px;
+  }
+
+}

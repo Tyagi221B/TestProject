@@ -1,7 +1,6 @@
 import React from "react";
 import "./style.css";
 
-// ImageSlider component
 const ImageSlider = () => {
 	// State for current slide index
 	const [currentSlideIndex, setCurrentSlideIndex] = React.useState(0);
