@@ -1,8 +1,23 @@
+
+import { useState } from "react";
 import "./style.css"
+import { useEffect } from "react";
 const Navbar = () => {
+	const [isScrolled, setIsScrolled] = useState(false); // State variable
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 0); // Update state when scrolled
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => window.removeEventListener('scroll', handleScroll); // Cleanup
+  }, []);
+
 	return (
 		<div className="">
-			<nav className="navbar navbar-expand-lg bg-light mt-1 ps-5 pe-5 fixed-top nav-bar">
+			<nav className={`navbar navbar-expand-lg ps-5 pe-5 fixed-top  ${isScrolled ? 'nav-bar-scrolled' : 'nav-bar'}`}>
 				<div className="container-fluid">
 					<a className="navbar-brand" href="/">
 						DINESHGAHLOT.COM

@@ -21,7 +21,7 @@ export default function SlideNavButtons() {
 								<path d="M10 6 L2 16 10 26 M2 16 L30 16" />
 							</svg>
 			</button>
-			<button type="button" className="btn" onClick={() => swiper.slideNext()}>
+			<button type="button" className="btn " onClick={() => swiper.slideNext()}>
       <span className="right-arrow" aria-hidden="true">
 							<svg
 								id="i-arrow-right"
