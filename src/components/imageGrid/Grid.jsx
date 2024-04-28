@@ -3,10 +3,10 @@ import "./style.css";
 
 const Grid = () => {
 	return (
-		<div id="grid" className="grid-container">
+		<div id="grid" className="grid-container galler back-image">
 					<div className="box img2 image-height-primary mx-4">Mountain</div>
 
-			<div className="gallery row justify-content-evenly ">
+			<div className="row justify-content-evenly ">
 
 				<div className="col-3 ">
 					<div className="box img5 image-height-secondary">Beach</div>

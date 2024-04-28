@@ -16,7 +16,7 @@ const Testimonial = () => {
 	}
 
 	return (
-		<div id="testimonial" className="row h-100 main-container row justify-content-center">
+		<div id="testimonial" className="row h-100 main-container row justify-content-center back-image">
 			<div className="left-container col-5 d-flex flex-column justify-content-between">
 				<h1 className="fw-bold">Testimonials</h1>
 				<p>

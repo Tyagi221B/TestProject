@@ -4,6 +4,7 @@ import Grid from './components/imageGrid/Grid'
 import ImageSlider from './components/imageSlider/ImageSlider'
 import Navbar from './components/navbar/Navbar'
 import Testimonial from './components/testimonial/Testimonial'
+import Slider from './components/swiper/Slider'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
     <Home/>
     <Grid/>
     <Testimonial/>
+    <Slider/>
     <ImageSlider/>
     </>
   )
