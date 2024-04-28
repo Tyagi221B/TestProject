@@ -3,7 +3,7 @@ import "./style.css"; // Import your custom CSS (optional)
 const Grid = () => {
 	return (
 		<div id="grid" className="grid-container">
-      <h1 className="text-center ">Grid Gallery</h1>
+      <h1 className="text-center">Grid Gallery</h1>
 			<div className="box img2 image-height-primary mx-4 extra">Mountain</div>
 			<div className="row justify-content-evenly">
 				<div className="col-sm-4 col-md-3 col-lg-3">

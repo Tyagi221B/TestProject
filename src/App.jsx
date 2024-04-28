@@ -5,6 +5,7 @@ import ImageSlider from './components/imageSlider/ImageSlider'
 import Navbar from './components/navbar/Navbar'
 import Testimonial from './components/testimonial/Testimonial'
 import Slider from './components/swiper/Slider'
+import Section from './components/section2/Section'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
     <>
     <Navbar/>
     <Home/>
+    <Section/>
     <Grid/>
     <Testimonial/>
     <Slider/>
